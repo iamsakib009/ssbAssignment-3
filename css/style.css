@@ -1,0 +1,134 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0;
+}
+body {
+  background-color: #fff;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+header {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.container {
+  padding: 2em 2em;
+  margin-inline: auto;
+  max-width: 80rem;
+}
+.left {
+  text-align: center;
+}
+h1 {
+  letter-spacing: 0.5rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 200;
+  line-height: 3.5rem;
+  text-transform: uppercase;
+}
+span {
+  font-weight: 700;
+  color: rgba(221, 28, 228, 0.849);
+}
+p {
+  text-align: center;
+  color: rgb(7, 0, 0);
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin: 20px auto 40px auto;
+}
+form {
+  height: 3.2rem;
+  width: 100%;
+  border-radius: 3rem;
+  padding-left: 2rem;
+  font-size: 1.1rem;
+}
+img {
+  width: 440px;
+  height: 440px;
+}
+.image {
+  margin-left: 35rem;
+  width: 340px;
+  height: 340px;
+}
+input {
+  outline: none;
+  border: 1px solid hsla(189, 45%, 55%, 0.801);
+  height: 50%;
+  border-radius: 50px;
+  padding-left: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.1rem;
+}
+button {
+  width: 100px;
+  height: 70%;
+  border-radius: 50px;
+  background: azure;
+  box-shadow: 0px 0px 18px 1px #e9e1e182;
+  transition: 0.3s ease box-shadow;
+}
+
+label {
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  outline: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 12px;
+  font-size: 1rem;
+}
+.link {
+  width: auto;
+  height: auto;
+  border-radius: 50px;
+  background-color: rgb(24, 218, 218);
+  box-shadow: 0px 0px 18px 1px #e9e1e182;
+  padding: 0.5rem;
+  text-align: center;
+  margin-right: 8px;
+}
+.link1 {
+  width: auto;
+  height: auto;
+  border-radius: 50px;
+  background-color: rgb(24, 218, 218);
+  box-shadow: 0px 0px 18px 1px #e9e1e182;
+  padding: 1.1rem;
+  text-align: center;
+  margin-right: 8px;
+  font-size: 1.5rem;
+}
+footer {
+  background-color: azure;
+  text-align: center;
+}
